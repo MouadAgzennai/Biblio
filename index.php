@@ -44,6 +44,7 @@ if ($nomMembre === '') {
 
 $bibliotheque = new Bibliotheque();
 $membre = new Membre($idMembre, $nomMembre);
+echo "Bienvenue, " . $membre->getNom() . " !\n";
 
 while (true) {
     echo "\n";
