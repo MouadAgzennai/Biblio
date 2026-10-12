@@ -15,3 +15,10 @@ Application PHP en ligne de commande pour gérer une bibliothèque (livres, memb
 ## Tests
 
     php tests/run.php
+
+## Lancer l'application
+
+    php index.php
+
+L'application demande l'identifiant et le nom du membre, puis affiche le menu de gestion
+des livres dans le terminal.
